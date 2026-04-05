@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<head>
+    <title>Air Quality AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>🌍 Air Quality Predictor</h1>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+    <div class="form">
+        <input type="number" id="pm25" placeholder="PM2.5">
+        <input type="number" id="pm10" placeholder="PM10">
+        <input type="number" id="no2" placeholder="NO2">
+        <button onclick="predictAQI()">Predict</button>
+    </div>
+
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
